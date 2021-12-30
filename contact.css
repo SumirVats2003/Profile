@@ -1,0 +1,81 @@
+#contact {
+    margin: 3vh 1vw;
+    /* height: fit-content; */
+    /* background-color:aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 8vh;
+}
+
+.contactpage .head {
+    font-size: 8vh;
+    font-family: var(--mono-font);
+    /* margin-bottom: 15vh; */
+    margin-left: 4vh;
+}
+
+.contactpage .contactpara {
+    font-size: 3vh;
+    font-family: var(--ui-font);
+    margin: 2vh 2vw;
+}
+
+.contactpage {
+    margin: 6vh 4vw;
+    /* background: rgb(55, 68, 109); */
+}
+
+.contactpage a{
+    width:auto;
+    margin: 0 3vw;
+}
+
+.contactpage a i {
+    /* background-color: grey; */
+    color: grey;
+    /* padding: 3vh; */
+    margin: 0 2vw;
+    width:2vh;
+    height: 2vh;
+    font-size: 5vh;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.contactpage a i:hover{
+    color: var(--ui-color)
+}
+
+.contactpage form {
+    margin: 2vh 3vw;
+}
+
+.contactpage form table tr td {
+    font-family: var(--ui-font);
+    font-size: 4vh;
+    font-weight: bold;
+    padding: 1vh 2vw;
+}
+
+.contactpage form table tr td input{
+    font-size: 3vh;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1vh 1vw;
+}
+
+.contactpage .btn {
+    margin: 2vh 12vw;
+    font-size: 3vh;
+    width: 10vw;
+}
+
+.contactpage .social {
+    font-size: 5vh;
+    font-family: var(--mono-font);
+    /* margin-bottom: 15vh; */
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
+
