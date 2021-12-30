@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+:root {
+    --ui-color: rgb(0, 150, 255);
+    --main-color: rgb(234, 234, 234);
+    --ui-font: 'Rajdhani', sans-serif;
+    --mono-font: 'Space Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer {
+    display: flex;
+}
+
+.sidebar {
+    background-color: var(--main-color);
+    width: 20vw;
+    height: 100vh;
+    padding: 1vh;
+}
+
+.main {
+    /* background-color: blue; */
+    width:85vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    font-size: 4vh;
+    margin: 5vh;
+    margin-top: 11vh;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    font-family: var(--ui-font);
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--ui-color);
+}
+
+.name {
+    margin-right: 2vw;
+}
+
+.name #name{
+    font-size: 10vh;
+    margin-bottom: 1vh;
+    font-family: var(--mono-font);
+}
+
+.name .intro {
+    font-size: 5vh;
+    font-family: var(--ui-font);
+    margin-bottom: 5vh;
+}
+
+.listitem a:hover {
+    color:rgb(0, 60, 255);
+    /* background-color: var(--main-color); */
+}
+
+.btn {
+    background-color: var(--ui-color);
+    border: 0;
+    padding: 2vh;
+    font-size: 3vh;
+    font-family: var(--ui-font);
+    border-radius: 5vh;
+    width: 15vw;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 2vw;
+}
+
+.btn:hover {
+    background-color: var(--main-color);
+    border: 3px var(--ui-color);
+    color: var(--ui-color);
+}
+
+.main img {
+    width: 25vw;
+}
+
+#hi {
+    margin-left: 1vw;
+    font-family: var(--ui-font);
+    font-size: 4vh;
+    margin-bottom: 0;
+}
